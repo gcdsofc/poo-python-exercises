@@ -25,7 +25,7 @@ class Funcionario(Pessoa):
 class Tutor(Pessoa):
     def __init__(self, nome, cpf, data_nascimento, area_atuacao):
         super().__init__(nome, cpf, data_nascimento)
-        self.area_atuacao = area_atuacao
+        self.area_atua  cao = area_atuacao
 
     # Sobrescrita (override) do método apresentar
     def apresentar(self):
